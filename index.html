@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us Page</title>
+  </head>
+  <style>
+    * {
+      font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    }
+  </style>
+  <body class="bg-indigo-800">
+    <div class="bg-rose-50 p-5 rounded-lg shadow-md md:mx-[60px] mx-2 my-5">
+      <div class="mb-5">
+        <h1 class="text-center mb-2 text-xl md:text-2xl lg:text-3xl font-black">
+          Get In Touch!
+        </h1>
+        <p class="text-center mb-2 text-md text-gray-600 mb-2">
+          Welcome to <a href="https://snipbyte.com/">Snipbyte</a>, your ultimate
+          destination for free and premium coding templates.
+        </p>
+      </div>
+      <!-- basic info  -->
+      <div
+        class="icons mb-5 md:flex md:items-center md:justify-center md:mx-auto md:w-1/2"
+      >
+        <div
+          class="mx-auto md:mx-0 transition ease-in-out delay-150 flex flex-col justify-center items-center mx-2 p-5 hover:bg-white cursor-pointer rounded-lg w-[200px] h-[100px]"
+        >
+          <div class="mb-3">
+            <i class="fa-solid fa-location-dot text-indigo-800 text-2xl"></i>
+          </div>
+          <div class="text-center text-sm">I9/3 Islamabad</div>
+        </div>
+        <div
+          class="mx-auto md:mx-0 transition ease-in-out delay-150 flex flex-col justify-center items-center mx-2 p-5 hover:bg-white cursor-pointer rounded-lg w-[200px] h-[100px]"
+        >
+          <div class="mb-3">
+            <i class="fa-solid fa-phone text-indigo-800 text-2xl"></i>
+          </div>
+          <div class="text-center text-sm">+92 320 5604489</div>
+        </div>
+        <div
+          class="mx-auto md:mx-0 transition ease-in-out delay-150 flex flex-col justify-center items-center mx-2 p-5 hover:bg-white cursor-pointer rounded-lg w-[200px] h-[100px]"
+        >
+          <div class="mb-3">
+            <i class="fa-solid fa-envelope text-indigo-800 text-2xl"></i>
+          </div>
+          <div class="text-center text-sm">Snipbytesol@gmail.com</div>
+        </div>
+      </div>
+      <!-- contact form  -->
+      <div class="contactForm mb-5 md:mx-auto md:w-1/2 bg-white p-5 rounded-lg">
+        <form class="p-2">
+          <div class="md:flex md:justify-between">
+            <div class="md:w-1/2 w-full mb-3 md:mb-0">
+              <div class="md:mx-2">
+                <label class="text-sm mb-3">Your Name</label>
+
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 bottom-5 left-0 flex items-center pl-3.5 pointer-events-none"
+                  >
+                    <i class="text-gray-500 fa-solid fa-user"></i>
+                  </div>
+                  <input
+                    placeholder="John"
+                    class="pl-10 p-2.5 text-sm w-full mb-5 rounded border border-gray-300 focus:outline-none focus:border-indigo-800 transition ease-in-out delay-150"
+                  />
+                </div>
+              </div>
+              <div class="md:mx-2">
+                <label class="text-sm mb-3">Mail</label>
+
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 bottom-5 left-0 flex items-center pl-3.5 pointer-events-none"
+                  >
+                    <i class="text-gray-500 fa-solid fa-envelope"></i>
+                  </div>
+                  <input
+                    placeholder="Snipbytesol@gmail.com"
+                    class="pl-10 p-2.5 text-sm w-full mb-5 rounded border border-gray-300 focus:outline-none focus:border-indigo-800 transition ease-in-out delay-150"
+                  />
+                </div>
+              </div>
+              <div class="md:mx-2">
+                <label class="text-sm mb-3">Phone</label>
+
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 bottom-5 left-0 flex items-center pl-3.5 pointer-events-none"
+                  >
+                    <i class="text-gray-500 fa-solid fa-mobile"></i>
+                  </div>
+                  <input
+                    placeholder="+92 320 5604489"
+                    class="pl-10 p-2.5 w-full mb-5 text-sm rounded border border-gray-300 focus:outline-none focus:border-indigo-800 transition ease-in-out delay-150"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 md:mx-5">
+              <label class="text-sm mb-3">Message</label>
+              <textarea
+                rows="11"
+                class="w-full text-sm rounded border border-gray-300 bg-gray-100 focus:outline-none focus:border-indigo-800 transition ease-in-out delay-150"
+              ></textarea>
+            </div>
+          </div>
+          <div class="md:flex md:items-center md:justify-center my-4">
+            <button
+              class="px-5 py-2.5 text-white bg-indigo-800 rounded-lg w-full md:w-[200px] text-sm text-center"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- footer  -->
+      <h1 class="text-center">
+        Made with <i class="mx-1 fa-solid fa-heart text-red-500"></i> by
+        <a href="https://snipbyte.com/">
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-600"
+          >
+            Snipbyte
+          </span></a
+        >
+      </h1>
+    </div>
+  </body>
+</html>
